@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+
+body{
+    background-color: #00A7E1;
+}
+
+.centralizer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #00171F;
+    border-radius: 0 20px 0 20px;
+    -webkit-box-shadow: 10px 4px 43px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 4px 43px -1px rgba(0,0,0,0.75);
+    box-shadow: 10px 4px 43px -1px rgba(0,0,0,0.75);
+    transition: 0.4s;
+}
+
+#main:hover {
+    transition: 0.4s;
+    -webkit-box-shadow: 10px 4px 43px 6px rgba(0, 0, 0, 0.83);
+    -moz-box-shadow: 10px 4px 43px 6px rgba(0, 0, 0, 0.83);
+    box-shadow: 10px 4px 43px 6px rgba(0, 0, 0, 0.83);
+}
+
+h1{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2rem;
+    overflow:hidden;
+}
+
+h2{
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 0.3rem;
+}
+
+label, p{
+    
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+hr{
+    width: 12rem;
+    margin: 1rem;
+    border: 1px solid #fff;
+}
+
+input[type="number"]{
+
+    box-sizing: border-box;
+    margin: 8px 0;
+    background-color: #007EA7;
+    border: 0px;
+    border-radius: 1rem;
+    color: #FFFFFF;
+    padding: 8px 20px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+p, span{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="submit"]{
+    padding: 3px;
+    margin-left: auto;
+    border-radius: 1em;
+    font-family: "Roboto", sans-serif;
+    width: 7vh;
+    color: #FFFFFF;
+    border: 0px;
+    cursor: pointer;
+    background-color: #007EA7;
+}
